@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,900&family=Noto+Serif:ital,wght@1,300&family=Oswald:wght@700&family=Poppins:wght@200;300;400;600;700&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- <div class="abc"> -->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOLG</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+        <!-- ----courses------ -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                    Odio possimus corporis dolores esse dolorem voluptatum ratione consequatur dignissimos debitis quibusdam!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                    Odio possimus corporis dolores esse dolorem voluptatum ratione consequatur dignissimos debitis quibusdam!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post graduation</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
+                    Odio possimus corporis dolores esse dolorem voluptatum ratione consequatur dignissimos debitis quibusdam!</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- -------facilities----- -->
+
+        <section class="facilities">
+            <h1>our facilities</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>world class library</h3>
+                    <p>A library is a place where books and sources of information are stored.<br>
+                         They make it easier for people to get access to them for various purposes.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Playground</h3>
+                    <p>A library is a place where books and sources of information are stored.<br>
+                         They make it easier for people to get access to them for various purposes.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tastey and Healthy Food</h3>
+                    <p>A library is a place where books and sources of information are stored.<br>
+                         They make it easier for people to get access to them for various purposes.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+
+
+        
+        
+        
+        <!-- -----footer----- -->
+        <section class="footer">
+            <h4>Our Courses</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quis accusantium amet eveniet optio ad natus exercitationem repellendus,<br>
+             maiores maxime?</p>
+             <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-whatsapp" ></i>
+                <i class="fa fa-telegram" ></i>
+                
+             </div>
+             <p>Made With <i class="fa fa-heart-o" ></i> Easy Tutorial</p>
+            </section>
+
+
+
+
+
+
+
+        
+
+
+        
+    <!-- </div> -->
+    <!-- -------------javascript for toggle menu---- -->
+  <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+  </script>
+    
+</body>
+</html>
